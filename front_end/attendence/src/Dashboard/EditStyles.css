@@ -1,0 +1,101 @@
+/* Styles for Edit component */
+
+/* General styles */
+.edit-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .edit-header {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  /* Table styles */
+  .edit-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .edit-table th, .edit-table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .edit-table th {
+    background-color: #f0f0f0;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .edit-table td {
+    background-color: #fff;
+  }
+  
+  /* Select styles */
+  .edit-select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  /* Button styles */
+  /* Button styles */
+.edit-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin: auto; /* Center the button horizontally */
+    display: block; /* Ensure it takes full width of the container */
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Form styles */
+  .edit-form {
+    margin-bottom: 20px;
+  }
+  
+  .edit-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Error message styles */
+  .edit-error {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  /* Success message styles */
+  .edit-success {
+    color: #28a745;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  /* Responsive styles */
+  @media only screen and (max-width: 600px) {
+    .edit-table th, .edit-table td {
+      padding: 8px;
+    }
+  
+    .edit-button {
+      padding: 8px 16px;
+    }
+  }
+  

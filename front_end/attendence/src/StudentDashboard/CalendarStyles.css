@@ -1,0 +1,52 @@
+/* CalendarStyles.css */
+.calendar {
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 350px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .controls button {
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 30px;
+  }
+  
+  .days {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 5px;
+    font-weight: bold;
+  }
+  
+  .day {
+    width: calc(100% / 2);
+    text-align: center;
+  }
+  
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  
+  .day {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .selected {
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+  }
+  

@@ -1,0 +1,66 @@
+/* Styles for ViewStudents Component */
+.students-container {
+    margin: 20px;
+  }
+  
+  .students-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .filter-container {
+    margin-bottom: 20px;
+  }
+  
+  .filter-label {
+    margin-right: 10px;
+  }
+  
+  .filter-input {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .filter-button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .students-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .students-table th,
+  .students-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .delete-button {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  .button-container {
+    display: flex;
+  }
+  
+  
+  th.centered {
+    text-align: center;
+  }
+  
+  

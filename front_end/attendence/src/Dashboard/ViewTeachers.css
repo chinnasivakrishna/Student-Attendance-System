@@ -1,0 +1,35 @@
+/* Styles for ViewTeachers Component */
+.teachers-container {
+    margin: 20px;
+  }
+  
+  .teachers-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .teachers-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .teachers-table th,
+  .teachers-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .delete-button {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  

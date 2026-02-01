@@ -1,0 +1,117 @@
+/* Styles for EditClasses component */
+
+/* General styles */
+.edit-classes-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+  
+.edit-classes-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+  
+/* Calendar styles */
+.edit-classes-calendar {
+    margin-bottom: 20px;
+}
+  
+/* Table styles */
+.edit-classes-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+.edit-classes-table th,
+.edit-classes-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+  
+.edit-classes-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+}
+  
+/* Button styles */
+.edit-classes-button {
+    padding: 6px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+.edit-classes-button:hover {
+    background-color: #0056b3 !important; /* Added !important */
+}
+  
+/* Deletion not possible message styles */
+.edit-classes-message {
+    color: #555; /* Dark gray color for not possible text */
+    font-style: normal; /* Normal font style */
+    font-weight: bold; /* Bold font weight for emphasis */
+    text-transform: uppercase; /* Uppercase text for emphasis */
+    letter-spacing: 1px;
+}
+  
+/* Edit Attendance button styles */
+.edit-attendance-button {
+    padding: 6px 12px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+.edit-attendance-button:hover {
+    background-color: #218838;
+}
+  
+/* Additional styles for EditClasses component */
+
+/* Table header styles */
+.edit-classes-table th {
+    background-color: #007bff;
+    color: #fff;
+}
+  
+/* Table row hover effect */
+.edit-classes-table tbody tr:hover {
+    background-color: #f2f2f2;
+}
+  
+/* Edit Attendance button hover effect */
+.edit-attendance-button:hover {
+    background-color: #218838;
+}
+  
+/* Delete button styles */
+.edit-classes-button.delete-button {
+    background-color: #dc3545;
+}
+  
+.edit-classes-button.delete-button:hover {
+    background-color: #c82333;
+}
+  
+/* Message styles */
+.edit-classes-message {
+    font-style: italic;
+}
+  
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+    .edit-classes-table th,
+    .edit-classes-table td {
+        padding: 6px;
+    }
+  
+    .edit-attendance-button,
+    .edit-classes-button.delete-button {
+        padding: 4px 8px;
+    }
+}

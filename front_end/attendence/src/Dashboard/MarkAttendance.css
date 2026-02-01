@@ -1,0 +1,78 @@
+/* MarkAttendance.css */
+
+.mark-attendance-container {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mark-attendance-container h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333333;
+  }
+  
+  .mark-attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .mark-attendance-table th,
+  .mark-attendance-table td {
+    border: 1px solid #dddddd;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .mark-attendance-table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  .mark-attendance-submit-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .mark-attendance-submit-button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .mark-attendance-submit-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  .mark-attendance-submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .mark-attendance-select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+  }
+  
+  .mark-attendance-row {
+    display: table-row;
+  }
+  
+  .mark-attendance-cell {
+    display: table-cell;
+  }
+  
+  .mark-attendance-cell select {
+    width: calc(100% - 24px);
+  }
+  
